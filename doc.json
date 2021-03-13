@@ -1,0 +1,23 @@
+{
+  "name": "bannounce",
+  "description": "Announce when banned players try to connect",
+  "author": "cake",
+  "config": {
+    "whisper-role": {
+      "description": "Role to announce to that a player was banned (if broadcast is off)",
+      "type": "string",
+      "default": ""
+    },
+    "broadcast": {
+      "description": "Announce to the server that a banned player joined",
+      "type": "boolean",
+      "default": false
+    },
+    "ignored-players": {
+      "description": "Players who do not have bannounce messages",
+      "type": "players",
+      "default": []
+    }
+  },
+  "commands": []
+}
